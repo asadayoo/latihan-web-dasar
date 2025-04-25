@@ -1,0 +1,111 @@
+/* Contoh penggunaan Flex Wrap */
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap; 
+    flex-wrap: wrap-reverse; 
+}
+
+.item-box {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.item-box:nth-child(odd) {
+    background-color: pink;
+}
+
+.item-box:nth-child(even) {
+    background-color: greenyellow;
+}
+
+
+/*
+//Contoh penggunaan Flex Direction
+.container {
+    display: flex;
+    flex-direction: row; 
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+}
+*/
+
+/* Contoh penggunaan Justify Content 
+.container {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.item-box{
+    width: 100px;
+    height: 100px;
+}
+
+.item-box:nth-child(odd) {
+    background-color: salmon;
+}
+
+.item-box:nth-child(even) {
+    background-color: lime;
+}
+*/
+
+/* Contoh penggunaan Align Items 
+.container {
+    display: flex;
+    height: 50vh;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+}
+
+.item-box {
+    width: 100px;
+}
+
+.item-box:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+.item-box:nth-child(even) {
+    background-color: aqua;
+}
+*/
+
+/* Contoh penggunaan Align Content dan Gap 
+.container {
+    background-color: lightgrey;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-content: center;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+}
+
+.item-box {
+    width: 100px;
+}
+
+.item-box:nth-child(odd) {
+    background-color: orange;
+}
+
+.item-box:nth-child(even) {
+    background-color: orangered;
+}
+*/
